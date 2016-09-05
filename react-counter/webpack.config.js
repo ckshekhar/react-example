@@ -7,7 +7,8 @@ module.exports = {
   devtool: debug ? "inline-source-map" : null,
   entry: {
     reduxbasic: "./js/reduxbasic.js",
-    multiplereducer: "./js/multiplereducer.js"
+    multiplereducer: "./js/multiplereducer.js",
+    "comment-react": "./js/comment/CommentBox.jsx"
   },
   module: {
     loaders: [
